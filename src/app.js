@@ -1,27 +1,21 @@
-console.log("Merhaba Kodlama.io");
+//JS Değişkenler => var,let,const
+let sayi1 = 10;
+sayi1 = "Gazetecilik";
+let student = { id: 1, name: "Akif" };
+//console.log(student);
 
-let dolarDun = 9.2;
-let dolarBugun = 9.3;
-
-{
-  let dolarDun = 9.1;
+//JS Fonksiyon
+//Default değerleri sona yazılır.
+function save(puan = 11, ogrenci) {
+  //console.log(ogrenci.name + ":", puan);
 }
-console.log(dolarDun);
+save(undefined, student);
 
-//const =>sabit demektir.
-const euroDun = 11.2;
-
-console.log(euroDun);
-
-//array
-//camelCasing
-//PascalCasing
-let konutKredileri = ["Konut Kredisi", "Emlak Konut Kredisi","Kamu Konut Kredisi",];
-konutKredileri.push("Özel Konut Kredileri");
-for (let i = 0; i < konutKredileri.length; i++) {
-  console.log(konutKredileri[i]);
-}
-
+//Array
+let students = ["Akif", "Ceyhun", 99];
+//console.log(students);
+let students2 = [student, { id: 1, name: "Büşra" }, "İstanbul", { city: "Ankara" }];
+//console.log(students2);
 
 
 
